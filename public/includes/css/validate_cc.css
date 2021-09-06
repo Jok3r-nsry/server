@@ -1,0 +1,15 @@
+.error {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: small;
+    color: darkred;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
+}
+
+.invalid:focus {
+    border-color: #ba0101;
+    box-shadow: 0 0 0 0.2rem #ba0101;
+}
